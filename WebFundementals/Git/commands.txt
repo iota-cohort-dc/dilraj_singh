@@ -1,0 +1,154 @@
+Dilrajs-Air:~ dilrajsingh$ cd
+Dilrajs-Air:~ dilrajsingh$ mkdir [dir]
+Dilrajs-Air:~ dilrajsingh$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+Dilrajs-Air:~ dilrajsingh$ mkdir [newDir]
+Dilrajs-Air:~ dilrajsingh$ rmdir[newwFolder1]
+-bash: rmdir[newwFolder1]: command not found
+Dilrajs-Air:~ dilrajsingh$ rmdir
+usage: rmdir [-p] directory ...
+Dilrajs-Air:~ dilrajsingh$ desktop
+-bash: desktop: command not found
+Dilrajs-Air:~ dilrajsingh$ cd
+Dilrajs-Air:~ dilrajsingh$ cd[desktop]
+-bash: cd[desktop]: command not found
+Dilrajs-Air:~ dilrajsingh$ cd [desktop]
+-bash: cd: [desktop]: No such file or directory
+Dilrajs-Air:~ dilrajsingh$ clear
+
+
+
+
+
+
+Dilrajs-Air:~ dilrajsingh$ cd[desktop]
+-bash: cd[desktop]: command not found
+Dilrajs-Air:~ dilrajsingh$ cd
+Dilrajs-Air:~ dilrajsingh$ cd/
+-bash: cd/: No such file or directory
+Dilrajs-Air:~ dilrajsingh$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dilrajs-Air:/ dilrajsingh$ ls
+Applications                    etc
+Library                         home
+Network                         installer.failurerequests
+System                          net
+User Information                private
+Users                           sbin
+Volumes                         tmp
+bin                             usr
+cores                           var
+dev
+Dilrajs-Air:/ dilrajsingh$ ls Users
+Guest           Shared          dilrajsingh
+Dilrajs-Air:/ dilrajsingh$ ls Users
+Guest           Shared          dilrajsingh
+Dilrajs-Air:/ dilrajsingh$ ls Library
+Application Support     Input Methods           QuickTime
+Audio                   Internet Plug-Ins       Raft
+Caches                  Java                    Receipts
+ColorPickers            Keyboard Layouts        Ruby
+ColorSync               Keychains               Sandbox
+Components              LaunchAgents            Screen Savers
+Compositions            LaunchDaemons           ScriptingAdditions
+Contextual Menu Items   Logs                    Scripts
+CoreMediaIO             Messages                Security
+Desktop Pictures        Modem Scripts           Speech
+DirectoryServices       OpenDirectory           Spotlight
+Documentation           PDF Services            StartupItems
+DropboxHelperTools      Perl                    SystemMigration
+Extensions              PreferencePanes         SystemProfiler
+Filesystems             Preferences             Updates
+Fonts                   Printers                User Pictures
+Frameworks              PrivilegedHelperTools   Video
+Graphics                Python                  WebServer
+Image Capture           QuickLook               Widgets
+Dilrajs-Air:/ dilrajsingh$ ls Desktop
+ls: Desktop: No such file or directory
+Dilrajs-Air:/ dilrajsingh$ ls
+Applications                    etc
+Library                         home
+Network                         installer.failurerequests
+System                          net
+Dilrajs-Air:~ dilrajsingh$ ls
+AndroidStudioProjects   Movies                  [new
+Creative Cloud Files    Music                   [newDir]
+Desktop                 Pictures                destination
+Documents               Public                  file]
+Downloads               [4h4s]                  index.html
+Dropbox                 [dir]                   name]
+Google Drive            [foler                  this.txt.save
+Library                 [index.html]            this.txt.save.1
+Dilrajs-Air:~ dilrajsingh$ ls Desktop
+untitled folder 4
+Dilrajs-Air:~ dilrajsingh$ mkdir test
+Dilrajs-Air:~ dilrajsingh$ ls test
+Dilrajs-Air:~ dilrajsingh$ cd ls test
+-bash: cd: ls: No such file or directory
+Dilrajs-Air:~ dilrajsingh$ ls test
+Dilrajs-Air:~ dilrajsingh$ touch index.html
+Dilrajs-Air:~ dilrajsingh$ pwd
+/Users/dilrajsingh
+Dilrajs-Air:~ dilrajsingh$ /User/dilrajsingh/test touch index.html
+-bash: /User/dilrajsingh/test: No such file or directory
+Dilrajs-Air:~ dilrajsingh$ Users/dilrajsingh/test
+-bash: Users/dilrajsingh/test: No such file or directory
+Dilrajs-Air:~ dilrajsingh$ ls test
+Dilrajs-Air:~ dilrajsingh$ pwd
+/Users/dilrajsingh
+Dilrajs-Air:~ dilrajsingh$ cd test
+Dilrajs-Air:test dilrajsingh$ touch index.html
+Dilrajs-Air:test dilrajsingh$ cd test
+-bash: cd: test: No such file or directory
+Dilrajs-Air:test dilrajsingh$ touch style.css
+Dilrajs-Air:test dilrajsingh$ cd test
+-bash: cd: test: No such file or directory
+Dilrajs-Air:test dilrajsingh$ cp index.html index2.html
+Dilrajs-Air:test dilrajsingh$ rm style.css
+Dilrajs-Air:test dilrajsingh$ ls
+index.html      index2.html
+Dilrajs-Air:test dilrajsingh$ pwd
+/Users/dilrajsingh/test
+Dilrajs-Air:test dilrajsingh$ cd
+Dilrajs-Air:~ dilrajsingh$ ls
+AndroidStudioProjects   Music                   destination
+Creative Cloud Files    Pictures                file]
+Desktop                 Public                  index.html
+Documents               [4h4s]                  name]
+Downloads               [dir]                   test
+Dropbox                 [foler                  this.txt.save
+Google Drive            [index.html]            this.txt.save.1
+Library                 [new
+Movies                  [newDir]
+Dilrajs-Air:~ dilrajsingh$ cd Desktop
+Dilrajs-Air:Desktop dilrajsingh$ mkdir destination
+Dilrajs-Air:Desktop dilrajsingh$ cd test
+-bash: cd: test: No such file or directory
+Dilrajs-Air:Desktop dilrajsingh$ cd
+Dilrajs-Air:~ dilrajsingh$ cd test
+Dilrajs-Air:test dilrajsingh$ mv index2.html Desktop
+Dilrajs-Air:test dilrajsingh$ ls
+Desktop         index.html
+Dilrajs-Air:test dilrajsingh$ cd
+Dilrajs-Air:~ dilrajsingh$ cd Desktop
+Dilrajs-Air:Desktop dilrajsingh$ rm destination
+rm: destination: is a directory
+Dilrajs-Air:Desktop dilrajsingh$ rm -r destination
+Dilrajs-Air:Desktop dilrajsingh$

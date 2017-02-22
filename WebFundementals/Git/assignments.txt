@@ -1,0 +1,42 @@
+Dilrajs-Air:~ dilrajsingh$ ls
+AndroidStudioProjects	Music			destination
+Creative Cloud Files	Pictures		file]
+Desktop			Public			index.html
+Documents		[4h4s]			name]
+Downloads		[dir]			test
+Dropbox			[foler			this.txt.save
+Google Drive		[index.html]		this.txt.save.1
+Library			[new
+Movies			[newDir]
+Dilrajs-Air:~ dilrajsingh$ ls Desktop
+commands.txt		untitled folder 4
+Dilrajs-Air:~ dilrajsingh$ cd Desktop
+Dilrajs-Air:Desktop dilrajsingh$ mkdir DojoAssignments
+Dilrajs-Air:Desktop dilrajsingh$ cd DojoAssignments
+Dilrajs-Air:DojoAssignments dilrajsingh$ mkdir Git
+Dilrajs-Air:DojoAssignments dilrajsingh$ mkdir HTML
+Dilrajs-Air:DojoAssignments dilrajsingh$ mkdir CSS
+Dilrajs-Air:DojoAssignments dilrajsingh$ mkdir Javascript
+Dilrajs-Air:DojoAssignments dilrajsingh$ cd Git
+Dilrajs-Air:Git dilrajsingh$ touch about.txt
+Dilrajs-Air:Git dilrajsingh$ cd HTML
+-bash: cd: HTML: No such file or directory
+Dilrajs-Air:Git dilrajsingh$ ls
+about.txt
+Dilrajs-Air:Git dilrajsingh$ cd..
+-bash: cd..: command not found
+Dilrajs-Air:Git dilrajsingh$ cd ..
+Dilrajs-Air:DojoAssignments dilrajsingh$ cd HTML
+Dilrajs-Air:HTML dilrajsingh$ touch about.txt
+Dilrajs-Air:HTML dilrajsingh$ cd ..
+Dilrajs-Air:DojoAssignments dilrajsingh$ cd CSS
+Dilrajs-Air:CSS dilrajsingh$ touch about.txt
+Dilrajs-Air:CSS dilrajsingh$ cd ..
+Dilrajs-Air:DojoAssignments dilrajsingh$ cd JavaScript
+Dilrajs-Air:JavaScript dilrajsingh$ touch about.txt
+Dilrajs-Air:JavaScript dilrajsingh$ cd ..
+Dilrajs-Air:DojoAssignments dilrajsingh$ cd HTML
+Dilrajs-Air:HTML dilrajsingh$ touch indentation.html
+Dilrajs-Air:HTML dilrajsingh$ ls -R
+about.txt		indentation.html
+Dilrajs-Air:HTML dilrajsingh$ 
